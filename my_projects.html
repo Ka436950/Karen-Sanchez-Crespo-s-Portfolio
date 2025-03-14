@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karen Sanchez Crespo's Portfolio</title>
+    <meta name="description" content="Karen Sanchez Crespo's portfolio showcasing web and graphic design projects and web development projects developed with React, React Native, and more.">
+    <!--this is the css for bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .nav-link {
+        color: #359c6a; /* color of the links in nav */
+      }
+
+      .nav-link:hover {
+        color: #00713a; /* Change this to your desired color */
+      }
+
+      #active {
+        background-color: #359c6a; /* color of the active link in nav */
+        border-color: #359c6a;
+        
+      }
+
+      .btn-primary {
+        background-color: #359c6a; /* color of the buttons on the cads in the design container */
+        border-color: #359c6a; 
+      }
+
+      .btn-primary:hover {
+        background-color: #00713a; /* color of the buttons on the cads in the design container */
+        border-color: #00713a; 
+      }
+
+      h1{
+        color: #359c6a;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!--head of the page-->
+    <div class="col-lg-6 col-md-8 mx-auto my-4">
+        <h1 class="text-center p-2">Karen Sanchez Crespo</h1>
+        <p class="lead text-center"> Bringing ideas to life through captivating design, intuitive websites, and engaging content.</p>
+    </div>
+    
+    <!--navigation bar of the page-->
+    <nav>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a  class="nav-link active" id="active" aria-current="page" href="my_projects.html">My Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about_me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact_me.html">Contact Me</a>
+            </li>
+      </ul>
+      </nav>
+
+    <!--this is were the album begins-->
+    <div class="album py-5">
+        
+        <!--DESIGN PROJECTS-->
+        <!--On the links to other pages target="_blank" was added so that it opens in a new tab-->
+        
+
+        <div class="container">
+          <h3 class="my-3">Prototypes, Wireframes, and Graphic Design Projects</h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/SignIE Home.png" class="card-img-top" alt="prototype of the homepage for the website SignIE">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">SignIE Prototype</h5>
+                          <p class="card-text">High fidelity prototype for a website that uses computer vision to correct the users' signs in real time. Implemented in Figma.</p>
+                          <a href="https://www.figma.com/file/ljVocBCmvBMMItqSQXpU8a/Exercise-App?type=design&node-id=0%3A1&mode=design&t=TpcPVDTf1cdNcteh-1" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/Kbook Stars.png" class="card-img-top" alt="prototype for the sign in page of the website KbookStars">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">KBook Stars Prototype</h5>
+                          <p class="card-text">High fidelity prototype for a social media website about book reviews. Implemented in Figma.</p>
+                          <a href="https://www.figma.com/proto/tY6GoGQN1SPkDPAkSQoK6G/K-Books-Stars?node-id=7-1909&starting-point-node-id=7%3A1909&t=7OgVL7XXF8DOWgAN-1" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/quizcards design.png" class="card-img-top" alt="phone screens with the prototype design for a quiz card app">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">QuizCards</h5>
+                          <p class="card-text">Wireframe design for a quiz card application implemented in Figma.</p>
+                          <a href="https://www.figma.com/proto/KvONdgmKSfLGuDVgdATTED/QuizCards?node-id=1-2&p=f&t=uWyzVi239G60B9eJ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/Palate Pals.png" class="card-img-top" alt="Prototype for the look of the homepage for the application Palate Pals">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Palate Pals Prototype</h5>
+                          <p class="card-text">High fidelity prototype for an application that lets users discover local events and restaurants, with a feature that lets them collect points when visiting local spots.</p>
+                          <a href="https://www.figma.com/proto/JI5tmqx1QvG9K1tjpR5y9R/PalatePals?node-id=272-428&p=f&t=DI41P1JRWZ6aFmiL-1&scaling=scale-down&content-scaling=fixed&page-id=272%3A427" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/Youtube Redesign.png" class="card-img-top" alt="phone screen showing a mockup of what combining features in the YouTube app would look like">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">YouTube Community Re-Design</h5>
+                          <p class="card-text">Wireframe design for what the community tab of YouTube channels would look like if it was mixed into the subscriptions page. Implemented in Figma.</p>
+                          <a href="https://www.figma.com/proto/ydPqnSnEXifP0M7xqElPV6/Youtube-Re-Design?node-id=1-10&p=f&t=bG9rIOLMusUUEwcT-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/Petma.png" class="card-img-top" alt="Wireframe for the home page of the app Petma">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Petma Prototype</h5>
+                          <p class="card-text">High fidelity prototype for a social media app for pets. Implemented in Figma.</p>
+                          <a href="https://www.figma.com/proto/8wfnUqeGpQg0gzIcNKrWJ0/Petma-Folow-along---ksc?node-id=10-173&p=f&t=D3B3DpWgYtaQEv9q-1&scaling=scale-down&content-scaling=fixed&page-id=9%3A169&starting-point-node-id=10%3A173" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/SignIE Logos.png" class="card-img-top" alt="three variations of the primary Logo for the website SignIE">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">SignIE Branding</h5>
+                          <p class="card-text">Logos created for the SignIE company and brand.</p>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="images/exercise app design.png" class="card-img-top" alt="Wireframe of screens depicting the designs for an exercising app with push-ups, plank, and running features">
+                      <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Exercise App</h5>
+                          <p class="card-text">Wireframe design for an exercise app with options to correct someone's form in push-ups and planks. Implemented in Figma.</p>
+                          <a href="https://www.figma.com/proto/ljVocBCmvBMMItqSQXpU8a/Exercise-App?node-id=2-106&p=f&t=0GPgVeJlTiCvMUod-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="btn btn-primary mt-auto" target="_blank">Take me to Figma</a>
+                      </div>
+                  </div>
+              </div>
+      
+          </div>
+      </div>
+      
+    
+
+        
+
+        <!--WED DEVELOPMENT PROJECTS-->
+        <div class="container my-5">
+            <h3 class="my-3">React, React Native, and Web Development Projects</h3>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card">
+                        <video controls>
+                            <source src="videos/lab 10 - quiz app.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                        <div class="card-body">
+                          <h5 class="card-title">Quiz App</h5>
+                          <p class="card-text">Quiz application developed with React Native and with simple styling. It utilizes navigation tools to go in between testing screens and checks wether answers were correct or not.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <video controls>
+                            <source src="videos/Lab 9 Recording of Output - KSC.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                        <div class="card-body">
+                          <h5 class="card-title">Exercise App</h5>
+                          <p class="card-text">Exercise application developed with React Native and with simple styling. It features a counter that can add or reset repetitions.</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                      <video controls>
+                        <source src="videos/Lab 8 Recording.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                        <div class="card-body">
+                          <h5 class="card-title">To-Do App</h5>
+                          <p class="card-text">To-Do application developed with React Native and with simple styling. It features a Login Screen, the abiltity to add new tasks, and to also mark if an item was completed or not.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--this is the script link for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
